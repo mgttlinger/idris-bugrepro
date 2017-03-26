@@ -1,0 +1,9 @@
+package presmv
+
+sourcedir = src
+
+pkgs = config, containers, effects, lightyear
+modules = Main, Osek, Nusmv
+
+executable = presmv.o
+main = Main
